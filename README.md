@@ -106,7 +106,7 @@ Inspired by a love for electronics, emergency preparedness, and real-time comms.
 ## 🌟 Star this repo if you find it cool!
 
 ```
-git clone https://github.com/yourusername/node_comms.git
+git clone https://github.com/mr6874000/node_comms.git
 ```
 
 🛰️ Stay connected — even when the world isn’t.
