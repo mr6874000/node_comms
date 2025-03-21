@@ -1,0 +1,39 @@
+name: C/C++ CI
+
+on:
+  push:
+    branches: [ "master" ]
+  pull_request:
+    branches: [ "master" ]
+
+jobs:
+  build:
+
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Check out Repository Code
+        uses: actions/checkout@v4
+
+      - name: Install Python and pip
+        run: |
+          sudo apt update
+          sudo apt install -y python3 python3-pip python3-venv
+
+      - name: Set Up Python Virtual Environment
+        run: |
+          python3 -m venv venv
+          source venv/bin/activate
+          pip install --upgrade pip
+          pip install platformio
+
+      - name: Build ESP8266 Firmware
+        run: |
+          source venv/bin/activate
+          pio run
+
+      - name: Upload Compiled Firmware
+        uses: actions/upload-artifact@v3
+        with:
+          name: esp8266-firmware
+          path: .pio/build/*/firmware.bin
