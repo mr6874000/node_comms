@@ -37,7 +37,7 @@
 
 ## 📦 Requirements
 
-- 🔌 [ESP8266 NodeMCU](https://www.espressif.com/en/products/socs/esp8266)
+- 🔌 [ESP8266 NodeMCU](https://github.com/mr6874000/node_comms.git)
 - ⚡ Arduino IDE or PlatformIO
 - 📚 Libraries:
   - `ESP8266WiFi`
@@ -51,7 +51,7 @@
 
 ### 👉 Using PlatformIO (recommended)
 ```bash
-git clone https://github.com/yourusername/node_comms.git
+git clone https://github.com/mr6874000/node_comms.git
 cd node_comms
 pio run -t upload
 ```
