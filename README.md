@@ -94,14 +94,6 @@ Just don't use it for evil ☠️.
 - 🧭 GPS integration for rescue coordination
 - 🔋 Low-power sleep mode
 
----
-
-## 🙌 Credits
-
-Made with ❤️ by Tushar for offline resilience and nerdy fun.  
-Inspired by a love for electronics, emergency preparedness, and real-time comms.
-
----
 
 ## 🌟 Star this repo if you find it cool!
 
