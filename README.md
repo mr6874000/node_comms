@@ -5,7 +5,7 @@
 
 ---
 
-## 🌍 What is this?
+## 🌍 What is this? 
 
 `node_comms` is a peer-to-peer-style **offline chat system** that runs entirely on an ESP8266 microcontroller. It's designed for situations where **cell towers are down**, **Wi-Fi is unavailable**, or you're just **off-grid** 🏕️. Your ESP8266 becomes a Wi-Fi hotspot that allows nearby devices to connect and chat via a sleek web interface using WebSockets.
 
